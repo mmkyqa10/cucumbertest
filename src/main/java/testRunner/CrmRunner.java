@@ -7,9 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\Users\\mahes\\webservices\\cucumbertest\\Features\\deals.feature",
+		features="C:\\Users\\mahes\\webservices\\cucumbertest\\Features\\dealsmap.feature",
 		glue= {"stepDefinations"},
-		//format = {"pretty", "html:target/Destination"},
 		plugin = {"pretty","html:test-outout","junit:junit_xml/cucumber.xml"},
 		monochrome=true,
 		dryRun=false

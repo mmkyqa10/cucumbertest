@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.507">
-<testcase classname="Deals page validation" name="Verify the functionality of new deal creation" time="16.231">
-<system-out><![CDATA[Given that the user is on the login page for deals..........................passed
-And click on the Login button...............................................passed
-When provided the valid username and password...............................passed
-And click on the login buttom...............................................passed
-And clicks on the deals->New option.........................................passed
-And fill the title,description and probability..............................passed
-And click on Save button for deals..........................................passed
-Then deal should be added...................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.308">
+<testcase classname="Deals page validation using map" name="Verify the functionality of new deals creation" time="32.875">
+<system-out><![CDATA[Given that the user is on the login page for dealsmap.......................passed
+And click on the Login button for dealsmap..................................passed
+When provided the valid username and password for dealsmap..................passed
+And click on the login buttom for dealsmap..................................passed
+And clicks on the deals->New option for dealsmap............................passed
+And fill the title,description and probability for dealsmap.................passed
+And click on Save button for dealsmap.......................................passed
+Then deal should be added for dealsmap......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
