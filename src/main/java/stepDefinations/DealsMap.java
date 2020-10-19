@@ -66,7 +66,7 @@ public class DealsMap {
 			driver.findElement(By.name("description")).sendKeys(info.get("description"));
 			driver.findElement(By.name("probability")).sendKeys(info.get("probability"));
 			driver.findElement(By.xpath("//button[text()='Save']")).click();
-			
+						
 			//WebDriverWait wait=new WebDriverWait(driver, 30);
 			//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[1]")));
 
